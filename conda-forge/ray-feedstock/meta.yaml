@@ -1,0 +1,19 @@
+package:
+  name: ray
+  version: 0.6.0
+
+requirements:
+  build:
+  host:
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - ray
+
+about:
+  home:
+  license:
+  license_file:

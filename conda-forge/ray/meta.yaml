@@ -1,0 +1,22 @@
+package:
+  name: ray
+  version: 0.6.0
+source:
+  git_url: https://github.com/ray-project/ray.git
+
+requirements:
+  build:
+    - numpy
+  host:
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - ray
+
+about:
+  home:
+  license:
+  license_file:
