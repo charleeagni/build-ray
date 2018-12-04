@@ -1,0 +1,21 @@
+# build Logs
+Processing ./ray-0.6.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting redis (from ray==0.6.0)
+  Downloading https://files.pythonhosted.org/packages/f5/00/5253aff5e747faf10d8ceb35fb5569b848cde2fdc13685d42fcf63118bbc/redis-3.0.1-py2.py3-none-any.whl (61kB)
+    100% |████████████████████████████████| 71kB 2.5MB/s 
+Requirement already satisfied: click in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (6.7)
+Requirement already satisfied: six>=1.0.0 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (1.11.0)
+Requirement already satisfied: numpy in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (1.15.1)
+Collecting flatbuffers (from ray==0.6.0)
+  Downloading https://files.pythonhosted.org/packages/21/9a/b0f3302f994b58bc26ebcc39218c14e33d8fa1bd96b7ba709597aff7507c/flatbuffers-1.10-py2.py3-none-any.whl
+Requirement already satisfied: pyyaml in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (3.13)
+Collecting funcsigs (from ray==0.6.0)
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Requirement already satisfied: colorama in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (0.3.9)
+Requirement already satisfied: pytest in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from ray==0.6.0) (3.8.0)
+Requirement already satisfied: py>=1.5.0 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (1.6.0)
+Requirement already satisfied: setuptools in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (40.2.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (18.2.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (4.3.0)
+Requirement already satisfied: atomicwrites>=1.0 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (1.2.1)
+Requirement already satisfied: pluggy>=0.7 in /home/charleeagni12/miniconda3/envs/build36/lib/python3.6/site-packages (from pytest->ray==0.6.0) (0.7.1)
