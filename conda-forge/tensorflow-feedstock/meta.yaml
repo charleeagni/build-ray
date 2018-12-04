@@ -1,11 +1,9 @@
 package:
-  name: tensorflow
+  name: ray
   version: "0.6.0"
 
 build:
   number: 1
-  entry_points:
-    - tensorboard = tensorflow.tensorboard.tensorboard:main
 
 requirements:
   build:
@@ -21,7 +19,7 @@ requirements:
 
 test:
   imports:
-    - tensorflow
+    - ray
 
 about:
   home: http://tensorflow.org/
